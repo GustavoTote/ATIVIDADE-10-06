@@ -31,10 +31,9 @@ public class Gerente extends Funcionario implements Trabalhador {
     }
 }
 
-// Classe Empresa
 public class Empresa {
     public void adicionarTrabalhador(Trabalhador trabalhador) {
-        trabalhador.trabalhar(); // Chamando o método trabalhar do trabalhador
+        trabalhador.trabalhar();
     }
 
     public static void main(String[] args) {
