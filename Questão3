@@ -12,7 +12,7 @@ public class Estudante extends Pessoa {
         this.curso = curso;
 
     public static void main(String[] args) {
-        Estudante estudante = new Estudante("Maria", 20, "Engenharia");
+        Estudante estudante = new Estudante("Maria", 20, "Sistemas de informação");
         System.out.println("Nome: " + estudante.getNome());
         System.out.println("Idade: " + estudante.getIdade());
         System.out.println("Curso: " + estudante.getCurso());
